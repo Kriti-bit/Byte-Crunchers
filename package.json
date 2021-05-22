@@ -1,0 +1,32 @@
+{
+  "name": "byte-crunchers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kriti-bit/Byte-Crunchers.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kriti-bit/Byte-Crunchers/issues"
+  },
+  "homepage": "https://github.com/Kriti-bit/Byte-Crunchers#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "cookie": "^0.4.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-signature": "^1.0.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.11.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.10",
+    "validator": "^13.6.0"
+  }
+}
